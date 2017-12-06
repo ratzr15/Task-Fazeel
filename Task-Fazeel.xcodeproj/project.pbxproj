@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		121CD7FF1FD5C4D00056129D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121CD7FE1FD5C4D00056129D /* AppDelegate.swift */; };
-		121CD8011FD5C4D00056129D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121CD8001FD5C4D00056129D /* ViewController.swift */; };
 		121CD8041FD5C4D00056129D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 121CD8021FD5C4D00056129D /* Main.storyboard */; };
 		121CD8061FD5C4D00056129D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 121CD8051FD5C4D00056129D /* Assets.xcassets */; };
 		121CD8091FD5C4D00056129D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 121CD8071FD5C4D00056129D /* LaunchScreen.storyboard */; };
 		121CD8141FD5C4D00056129D /* Task_FazeelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121CD8131FD5C4D00056129D /* Task_FazeelTests.swift */; };
 		121CD81F1FD5C4D00056129D /* Task_FazeelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121CD81E1FD5C4D00056129D /* Task_FazeelUITests.swift */; };
+		121CD82D1FD5C5B70056129D /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121CD82C1FD5C5B70056129D /* CurrentWeather.swift */; };
+		121CD82F1FD5C9E40056129D /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121CD82E1FD5C9E40056129D /* WeatherService.swift */; };
+		121CD8311FD6D49D0056129D /* WeatherTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121CD8301FD6D49C0056129D /* WeatherTableViewController.swift */; };
+		64264211E216FE2E4D999EE2 /* Pods_Task_FazeelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE70F3AD2C73C7D496147A4 /* Pods_Task_FazeelTests.framework */; };
+		9FE06F1FDB5C9EECFD5459A4 /* Pods_Task_FazeelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971483EB443464A34D42CFCB /* Pods_Task_FazeelUITests.framework */; };
+		DF22C4BC3DEB846AB6239693 /* Pods_Task_Fazeel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D01249E63409AF086FEE1D6E /* Pods_Task_Fazeel.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,6 @@
 /* Begin PBXFileReference section */
 		121CD7FB1FD5C4D00056129D /* Task-Fazeel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Task-Fazeel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		121CD7FE1FD5C4D00056129D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		121CD8001FD5C4D00056129D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		121CD8031FD5C4D00056129D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		121CD8051FD5C4D00056129D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		121CD8081FD5C4D00056129D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,18 @@
 		121CD81A1FD5C4D00056129D /* Task-FazeelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Task-FazeelUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		121CD81E1FD5C4D00056129D /* Task_FazeelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task_FazeelUITests.swift; sourceTree = "<group>"; };
 		121CD8201FD5C4D00056129D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		121CD82C1FD5C5B70056129D /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		121CD82E1FD5C9E40056129D /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		121CD8301FD6D49C0056129D /* WeatherTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTableViewController.swift; sourceTree = "<group>"; };
+		4DB6B73D5B58CBD892185A77 /* Pods-Task-FazeelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task-FazeelTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Task-FazeelTests/Pods-Task-FazeelTests.release.xcconfig"; sourceTree = "<group>"; };
+		773E70F8D1620B260A24BAF2 /* Pods-Task-FazeelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task-FazeelUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Task-FazeelUITests/Pods-Task-FazeelUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8DE70F3AD2C73C7D496147A4 /* Pods_Task_FazeelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Task_FazeelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90A0FD624F9160D9A2ABEFD3 /* Pods-Task-FazeelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task-FazeelTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Task-FazeelTests/Pods-Task-FazeelTests.debug.xcconfig"; sourceTree = "<group>"; };
+		90B5152E186AA966A2497631 /* Pods-Task-Fazeel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task-Fazeel.release.xcconfig"; path = "Pods/Target Support Files/Pods-Task-Fazeel/Pods-Task-Fazeel.release.xcconfig"; sourceTree = "<group>"; };
+		971483EB443464A34D42CFCB /* Pods_Task_FazeelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Task_FazeelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1B94258111020F4E6997F05 /* Pods-Task-Fazeel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task-Fazeel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Task-Fazeel/Pods-Task-Fazeel.debug.xcconfig"; sourceTree = "<group>"; };
+		D01249E63409AF086FEE1D6E /* Pods_Task_Fazeel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Task_Fazeel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE027D6336864DF45CEFDF29 /* Pods-Task-FazeelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task-FazeelUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Task-FazeelUITests/Pods-Task-FazeelUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF22C4BC3DEB846AB6239693 /* Pods_Task_Fazeel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64264211E216FE2E4D999EE2 /* Pods_Task_FazeelTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FE06F1FDB5C9EECFD5459A4 /* Pods_Task_FazeelUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +100,8 @@
 				121CD8121FD5C4D00056129D /* Task-FazeelTests */,
 				121CD81D1FD5C4D00056129D /* Task-FazeelUITests */,
 				121CD7FC1FD5C4D00056129D /* Products */,
+				230FEEF8EF069969FC3A2AFC /* Pods */,
+				EBEC92008086B165181ED18F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,8 +119,10 @@
 			isa = PBXGroup;
 			children = (
 				121CD7FE1FD5C4D00056129D /* AppDelegate.swift */,
-				121CD8001FD5C4D00056129D /* ViewController.swift */,
-				121CD8021FD5C4D00056129D /* Main.storyboard */,
+				12B226A81FD80BD000A1365E /* Model */,
+				12B226AA1FD80C2400A1365E /* View */,
+				12B226A91FD80BEE00A1365E /* Controller */,
+				12B226AB1FD80C4000A1365E /* Networking */,
 				121CD8051FD5C4D00056129D /* Assets.xcassets */,
 				121CD8071FD5C4D00056129D /* LaunchScreen.storyboard */,
 				121CD80A1FD5C4D00056129D /* Info.plist */,
@@ -125,6 +148,61 @@
 			path = "Task-FazeelUITests";
 			sourceTree = "<group>";
 		};
+		12B226A81FD80BD000A1365E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				121CD82C1FD5C5B70056129D /* CurrentWeather.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		12B226A91FD80BEE00A1365E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				121CD8301FD6D49C0056129D /* WeatherTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		12B226AA1FD80C2400A1365E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				121CD8021FD5C4D00056129D /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		12B226AB1FD80C4000A1365E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				121CD82E1FD5C9E40056129D /* WeatherService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		230FEEF8EF069969FC3A2AFC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1B94258111020F4E6997F05 /* Pods-Task-Fazeel.debug.xcconfig */,
+				90B5152E186AA966A2497631 /* Pods-Task-Fazeel.release.xcconfig */,
+				90A0FD624F9160D9A2ABEFD3 /* Pods-Task-FazeelTests.debug.xcconfig */,
+				4DB6B73D5B58CBD892185A77 /* Pods-Task-FazeelTests.release.xcconfig */,
+				773E70F8D1620B260A24BAF2 /* Pods-Task-FazeelUITests.debug.xcconfig */,
+				EE027D6336864DF45CEFDF29 /* Pods-Task-FazeelUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EBEC92008086B165181ED18F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D01249E63409AF086FEE1D6E /* Pods_Task_Fazeel.framework */,
+				8DE70F3AD2C73C7D496147A4 /* Pods_Task_FazeelTests.framework */,
+				971483EB443464A34D42CFCB /* Pods_Task_FazeelUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 121CD8231FD5C4D00056129D /* Build configuration list for PBXNativeTarget "Task-Fazeel" */;
 			buildPhases = (
+				E4B5AABFFEF6B25184226143 /* [CP] Check Pods Manifest.lock */,
 				121CD7F71FD5C4D00056129D /* Sources */,
 				121CD7F81FD5C4D00056129D /* Frameworks */,
 				121CD7F91FD5C4D00056129D /* Resources */,
+				7DEFF5CE741D3FCA1F6EAD33 /* [CP] Embed Pods Frameworks */,
+				FFE699230D9E1B4F3BC5EB5B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +230,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 121CD8261FD5C4D00056129D /* Build configuration list for PBXNativeTarget "Task-FazeelTests" */;
 			buildPhases = (
+				584556A604D6FE5B871AC28F /* [CP] Check Pods Manifest.lock */,
 				121CD80B1FD5C4D00056129D /* Sources */,
 				121CD80C1FD5C4D00056129D /* Frameworks */,
 				121CD80D1FD5C4D00056129D /* Resources */,
+				46032A7AD71CF6A483C5D391 /* [CP] Embed Pods Frameworks */,
+				C02EC2E59266452999EE5219 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +251,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 121CD8291FD5C4D00056129D /* Build configuration list for PBXNativeTarget "Task-FazeelUITests" */;
 			buildPhases = (
+				6645A72FCE2AC9FDB034779B /* [CP] Check Pods Manifest.lock */,
 				121CD8161FD5C4D00056129D /* Sources */,
 				121CD8171FD5C4D00056129D /* Frameworks */,
 				121CD8181FD5C4D00056129D /* Resources */,
+				654E0A503F7438583BC76088 /* [CP] Embed Pods Frameworks */,
+				247A523A6F04F4C248533160 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,12 +341,152 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		247A523A6F04F4C248533160 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Task-FazeelUITests/Pods-Task-FazeelUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46032A7AD71CF6A483C5D391 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Task-FazeelTests/Pods-Task-FazeelTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		584556A604D6FE5B871AC28F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		654E0A503F7438583BC76088 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Task-FazeelUITests/Pods-Task-FazeelUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6645A72FCE2AC9FDB034779B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7DEFF5CE741D3FCA1F6EAD33 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Task-Fazeel/Pods-Task-Fazeel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C02EC2E59266452999EE5219 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Task-FazeelTests/Pods-Task-FazeelTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4B5AABFFEF6B25184226143 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FFE699230D9E1B4F3BC5EB5B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Task-Fazeel/Pods-Task-Fazeel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		121CD7F71FD5C4D00056129D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				121CD8011FD5C4D00056129D /* ViewController.swift in Sources */,
+				121CD82F1FD5C9E40056129D /* WeatherService.swift in Sources */,
+				121CD8311FD6D49D0056129D /* WeatherTableViewController.swift in Sources */,
+				121CD82D1FD5C5B70056129D /* CurrentWeather.swift in Sources */,
 				121CD7FF1FD5C4D00056129D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +651,7 @@
 		};
 		121CD8241FD5C4D00056129D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1B94258111020F4E6997F05 /* Pods-Task-Fazeel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +666,7 @@
 		};
 		121CD8251FD5C4D00056129D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90B5152E186AA966A2497631 /* Pods-Task-Fazeel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +681,7 @@
 		};
 		121CD8271FD5C4D00056129D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90A0FD624F9160D9A2ABEFD3 /* Pods-Task-FazeelTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +698,7 @@
 		};
 		121CD8281FD5C4D00056129D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DB6B73D5B58CBD892185A77 /* Pods-Task-FazeelTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +715,7 @@
 		};
 		121CD82A1FD5C4D00056129D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 773E70F8D1620B260A24BAF2 /* Pods-Task-FazeelUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +731,7 @@
 		};
 		121CD82B1FD5C4D00056129D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE027D6336864DF45CEFDF29 /* Pods-Task-FazeelUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

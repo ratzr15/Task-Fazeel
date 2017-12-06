@@ -9,7 +9,12 @@
 import XCTest
 @testable import Task_Fazeel
 
+
 class Task_FazeelTests: XCTestCase {
+    
+    var currentCity = "Dubai"
+    var apiKey = "d2e20dc7cb08594c288e60ef4bcf1bb6"
+
     
     override func setUp() {
         super.setUp()
@@ -21,15 +26,20 @@ class Task_FazeelTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testWeather() {
+       
+        let weatherService = WeatherService(Apikey: apiKey)
+        weatherService.getCurrentWeather(cityName: currentCity) { (result : [CurrentWeather]) in
+            
+            XCTAssertTrue(!result.isEmpty)
+            
+        }
+        
     }
     
     func testPerformanceExample() {
-        // This is an example of a performance test case.
         self.measure {
-            // Put the code you want to measure the time of here.
+            self.testWeather()
         }
     }
     
